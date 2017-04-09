@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B018D16CF1EA2E61CDC4DD6 /* libPods-WebServiceManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E28010D1DF246004E1FBCFEE /* libPods-WebServiceManager.a */; };
+		9A91BFD81E992F4500FB53DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BFD71E992F4500FB53DC /* main.m */; };
+		9A91BFDB1E992F4500FB53DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BFDA1E992F4500FB53DC /* AppDelegate.m */; };
+		9A91BFDE1E992F4500FB53DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BFDD1E992F4500FB53DC /* ViewController.m */; };
+		9A91BFE11E992F4500FB53DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A91BFDF1E992F4500FB53DC /* Main.storyboard */; };
+		9A91BFE31E992F4500FB53DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A91BFE21E992F4500FB53DC /* Assets.xcassets */; };
+		9A91BFE61E992F4500FB53DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A91BFE41E992F4500FB53DC /* LaunchScreen.storyboard */; };
+		9A91BFF01E99337D00FB53DC /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BFEF1E99337D00FB53DC /* WebServiceManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F5A633126EE5A1E89EF4DA6 /* Pods-WebServiceManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServiceManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebServiceManager/Pods-WebServiceManager.debug.xcconfig"; sourceTree = "<group>"; };
+		9A91BFD31E992F4500FB53DC /* WebServiceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServiceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A91BFD71E992F4500FB53DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A91BFD91E992F4500FB53DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A91BFDA1E992F4500FB53DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A91BFDC1E992F4500FB53DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A91BFDD1E992F4500FB53DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A91BFE01E992F4500FB53DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A91BFE21E992F4500FB53DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A91BFE51E992F4500FB53DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A91BFE71E992F4500FB53DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A91BFEE1E99337D00FB53DC /* WebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		9A91BFEF1E99337D00FB53DC /* WebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		D46A5A1982A7215C8262ECA9 /* Pods-WebServiceManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServiceManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebServiceManager/Pods-WebServiceManager.release.xcconfig"; sourceTree = "<group>"; };
+		E28010D1DF246004E1FBCFEE /* libPods-WebServiceManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebServiceManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A91BFD01E992F4400FB53DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B018D16CF1EA2E61CDC4DD6 /* libPods-WebServiceManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C73A49CF8C9FC8FE7B3ECF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F5A633126EE5A1E89EF4DA6 /* Pods-WebServiceManager.debug.xcconfig */,
+				D46A5A1982A7215C8262ECA9 /* Pods-WebServiceManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F69236D0ABBED58C6ADFA67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E28010D1DF246004E1FBCFEE /* libPods-WebServiceManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A91BFCA1E992F4400FB53DC = {
+			isa = PBXGroup;
+			children = (
+				9A91BFD51E992F4500FB53DC /* WebServiceManager */,
+				9A91BFD41E992F4500FB53DC /* Products */,
+				1C73A49CF8C9FC8FE7B3ECF4 /* Pods */,
+				2F69236D0ABBED58C6ADFA67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A91BFD41E992F4500FB53DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A91BFD31E992F4500FB53DC /* WebServiceManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A91BFD51E992F4500FB53DC /* WebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				9A91BFED1E99333900FB53DC /* NetworkLayer */,
+				9A91BFD91E992F4500FB53DC /* AppDelegate.h */,
+				9A91BFDA1E992F4500FB53DC /* AppDelegate.m */,
+				9A91BFDC1E992F4500FB53DC /* ViewController.h */,
+				9A91BFDD1E992F4500FB53DC /* ViewController.m */,
+				9A91BFDF1E992F4500FB53DC /* Main.storyboard */,
+				9A91BFE21E992F4500FB53DC /* Assets.xcassets */,
+				9A91BFE41E992F4500FB53DC /* LaunchScreen.storyboard */,
+				9A91BFE71E992F4500FB53DC /* Info.plist */,
+				9A91BFD61E992F4500FB53DC /* Supporting Files */,
+			);
+			path = WebServiceManager;
+			sourceTree = "<group>";
+		};
+		9A91BFD61E992F4500FB53DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A91BFD71E992F4500FB53DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A91BFED1E99333900FB53DC /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				9A91BFEE1E99337D00FB53DC /* WebServiceManager.h */,
+				9A91BFEF1E99337D00FB53DC /* WebServiceManager.m */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A91BFD21E992F4400FB53DC /* WebServiceManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A91BFEA1E992F4500FB53DC /* Build configuration list for PBXNativeTarget "WebServiceManager" */;
+			buildPhases = (
+				5069364963D3030B54742C25 /* [CP] Check Pods Manifest.lock */,
+				9A91BFCF1E992F4400FB53DC /* Sources */,
+				9A91BFD01E992F4400FB53DC /* Frameworks */,
+				9A91BFD11E992F4400FB53DC /* Resources */,
+				C106BAAE53FD5932E5BB94BD /* [CP] Embed Pods Frameworks */,
+				E18FF02AD08F0964AE8C3EEC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebServiceManager;
+			productName = WebServiceManager;
+			productReference = 9A91BFD31E992F4500FB53DC /* WebServiceManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A91BFCB1E992F4400FB53DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Malik Wahaj Ahmed";
+				TargetAttributes = {
+					9A91BFD21E992F4400FB53DC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9A91BFCE1E992F4400FB53DC /* Build configuration list for PBXProject "WebServiceManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A91BFCA1E992F4400FB53DC;
+			productRefGroup = 9A91BFD41E992F4500FB53DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A91BFD21E992F4400FB53DC /* WebServiceManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A91BFD11E992F4400FB53DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A91BFE61E992F4500FB53DC /* LaunchScreen.storyboard in Resources */,
+				9A91BFE31E992F4500FB53DC /* Assets.xcassets in Resources */,
+				9A91BFE11E992F4500FB53DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5069364963D3030B54742C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C106BAAE53FD5932E5BB94BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebServiceManager/Pods-WebServiceManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18FF02AD08F0964AE8C3EEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebServiceManager/Pods-WebServiceManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A91BFCF1E992F4400FB53DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A91BFF01E99337D00FB53DC /* WebServiceManager.m in Sources */,
+				9A91BFDE1E992F4500FB53DC /* ViewController.m in Sources */,
+				9A91BFDB1E992F4500FB53DC /* AppDelegate.m in Sources */,
+				9A91BFD81E992F4500FB53DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A91BFDF1E992F4500FB53DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A91BFE01E992F4500FB53DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A91BFE41E992F4500FB53DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A91BFE51E992F4500FB53DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A91BFE81E992F4500FB53DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A91BFE91E992F4500FB53DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A91BFEB1E992F4500FB53DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5A633126EE5A1E89EF4DA6 /* Pods-WebServiceManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WebServiceManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.WebServiceManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A91BFEC1E992F4500FB53DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46A5A1982A7215C8262ECA9 /* Pods-WebServiceManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WebServiceManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.WebServiceManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A91BFCE1E992F4400FB53DC /* Build configuration list for PBXProject "WebServiceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A91BFE81E992F4500FB53DC /* Debug */,
+				9A91BFE91E992F4500FB53DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A91BFEA1E992F4500FB53DC /* Build configuration list for PBXNativeTarget "WebServiceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A91BFEB1E992F4500FB53DC /* Debug */,
+				9A91BFEC1E992F4500FB53DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A91BFCB1E992F4400FB53DC /* Project object */;
+}
